@@ -1,0 +1,58 @@
+# AWS Sensitive Information
+*.pem
+*.key
+.aws/
+aws-credentials
+.env
+.env.local
+.env.production
+
+# Build artifacts and dependencies
+target/
+*.war
+*.jar
+*.class
+node_modules/
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Maven
+.m2/repository/
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+gradle-app.setting
+
+# CodeArtifact tokens (if stored locally)
+codeartifact-token
+*.token
+
+# Backup files
+*.bak
+*.backup
